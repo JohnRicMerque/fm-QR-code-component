@@ -557,18 +557,6 @@ video {
   margin: 1rem;
 }
 
-.mt-4{
-  margin-top: 1rem;
-}
-
-.mt-3{
-  margin-top: 0.75rem;
-}
-
-.mt-6{
-  margin-top: 1.5rem;
-}
-
 .mt-8{
   margin-top: 2rem;
 }
@@ -631,20 +619,6 @@ video {
   font-family: Outfit;
 }
 
-.text-primary{
-  font-size: 15px;
-}
-
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -669,33 +643,12 @@ video {
   color: rgb(31 50 81 / var(--tw-text-opacity));
 }
 
-.text-light_gray{
-  --tw-text-opacity: 1;
-  color: rgb(214 226 240 / var(--tw-text-opacity));
-}
-
 .text-grayish_blue{
   --tw-text-opacity: 1;
   color: rgb(123 135 157 / var(--tw-text-opacity));
 }
 
-.text-blue-600{
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.hover\:bg-blue-600:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-}
-
 .hover\:text-blue-600:hover{
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-@media (min-width: 640px){
-  .sm\:m-6{
-    margin: 1.5rem;
-  }
 }

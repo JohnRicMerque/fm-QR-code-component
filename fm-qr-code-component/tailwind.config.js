@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./qr-code-component-main/index.html"],
+  content: ["./index.html"],
   theme: {
     extend: {
       colors: {
