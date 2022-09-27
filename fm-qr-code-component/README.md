@@ -12,19 +12,18 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
-### Screenshot
+### Desktop View Screenshot
+<img src="qr-code-component-main/images/desktop view.png">
 
-![](./images/desktop%20view.png)
-![](./images/mobile%20view.png)
+### Mobile View Screenshot
+<img src="qr-code-component-main/images/mobile view.png" style="width: 400px">
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-code-component-using-tailwind-css-PXQq4oWYDy)
+- Live Site URL: [Add live site URL here](https://my-frontend-mentor-solutions-e9zt.vercel.app/)
 
 ## My process
 
@@ -34,7 +33,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Tailwind CSS
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
