@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-code-component-using-tailwind-css-PXQq4oWYDy)
-- Live Site URL: [Add live site URL here](https://my-frontend-mentor-solutions-e9zt.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-using-tailwind-css-PXQq4oWYDy](https://www.frontendmentor.io/solutions/qr-code-component-using-tailwind-css-PXQq4oWYDy)
+- Live Site URL: [https://my-frontend-mentor-solutions-e9zt.vercel.app/](https://my-frontend-mentor-solutions-e9zt.vercel.app/)
 
 ## My process
 
