@@ -13,8 +13,11 @@
 <body>
   <div class="min-h-screen w-screen flex justify-center items-center flex-col bg-cream ">
     <article class="w-[343px] mx-auto my-6 font-monteserrat lg:grid lg:grid-cols-2 lg:w-[550px] lg:place-items-center">
-      <img class="rounded-t-lg lg:hidden" src="./product-preview-card-component-main/images/image-product-mobile.jpg" alt="perfume">
-      <img class="hidden rounded-t-lg lg:block lg:h-full lg:rounded-l-lg lg:rounded-tr-none" src="./product-preview-card-component-main/images/image-product-desktop.jpg" alt="perfume">
+      <picture>
+        <source media="(min-width: 1024px)" srcset="./product-preview-card-component-main/images/image-product-desktop.jpg">
+        <source media="(min-width: 300px)" srcset="./product-preview-card-component-main/images/image-product-mobile.jpg">
+        <img src="./product-preview-card-component-main/images/image-product-desktop.jpg" alt="Gabrielle Parfum">
+      </picture>
 
       <div class="bg-white rounded-b-lg p-5 lg:h-full lg:rounded-r-lg lg:rounded-bl-none">
       
