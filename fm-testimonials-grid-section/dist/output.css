@@ -553,23 +553,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-6{
+.article{
   margin: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  padding-top: 1.5rem;
+  font-family: Barlow Semi Condensed;
+  font-size: 13px;
 }
 
-.my-6{
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+.m-6{
+  margin: 1.5rem;
 }
 
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mx-9{
-  margin-left: 2.25rem;
-  margin-right: 2.25rem;
 }
 
 .-mb-1{
@@ -600,29 +599,16 @@ video {
   align-items: center;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
 .gap-4{
   gap: 1rem;
 }
 
-.gap-x-5{
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
-}
-
-.gap-y-5{
-  row-gap: 1.25rem;
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .rounded-full{
   border-radius: 9999px;
-}
-
-.rounded-lg{
-  border-radius: 0.5rem;
 }
 
 .border-2{
@@ -639,18 +625,13 @@ video {
   background-color: hsl(263 55% 52% / var(--tw-bg-opacity));
 }
 
+.bg-Very_dark_grayish_blue{
+  --tw-bg-opacity: 1;
+  background-color: hsl(217 19% 35% / var(--tw-bg-opacity));
+}
+
 .p-8{
   padding: 2rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .pt-6{
@@ -665,11 +646,6 @@ video {
   font-size: 13px;
 }
 
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
@@ -680,41 +656,8 @@ video {
   line-height: 1.75rem;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-\[22px\]{
-  font-size: 22px;
-}
-
-.text-\[21px\]{
-  font-size: 21px;
-}
-
-.text-\[20px\]{
-  font-size: 20px;
-}
-
-.font-medium{
-  font-weight: 500;
-}
-
 .font-bold{
   font-weight: 700;
-}
-
-.leading-3{
-  line-height: .75rem;
-}
-
-.leading-5{
-  line-height: 1.25rem;
-}
-
-.leading-8{
-  line-height: 2rem;
 }
 
 .leading-6{
@@ -729,11 +672,6 @@ video {
 .text-Light_gray{
   --tw-text-opacity: 1;
   color: hsl(0 0% 81% / var(--tw-text-opacity));
-}
-
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .transition{
