@@ -6,6 +6,6 @@
 
 @layer components {
     .article {
-        @apply font-barlow_semi_condensed p-8 mx-6 pt-6 text-[13px] rounded-lg;
+        @apply font-barlow_semi_condensed p-8 pt-6 text-[13px] rounded-lg;
     }
 }
