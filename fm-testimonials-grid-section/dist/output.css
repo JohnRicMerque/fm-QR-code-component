@@ -581,8 +581,24 @@ video {
   bottom: 0px;
 }
 
+.order-3{
+  order: 3;
+}
+
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
+.row-span-2{
+  grid-row: span 2 / span 2;
+}
+
 .m-6{
   margin: 1.5rem;
+}
+
+.m-auto{
+  margin: auto;
 }
 
 .my-5{
@@ -615,12 +631,16 @@ video {
   height: 2rem;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .h-full{
   height: 100%;
+}
+
+.h-auto{
+  height: auto;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .w-8{
@@ -756,17 +776,22 @@ video {
   transition-duration: 150ms;
 }
 
+.hover\:text-Moderate_violet:hover{
+  --tw-text-opacity: 1;
+  color: hsl(263 55% 52% / var(--tw-text-opacity));
+}
+
 @media (min-width: 1024px){
   .lg\:order-4{
     order: 4;
   }
 
-  .lg\:order-5{
-    order: 5;
-  }
-
   .lg\:order-3{
     order: 3;
+  }
+
+  .lg\:order-5{
+    order: 5;
   }
 
   .lg\:col-span-2{
