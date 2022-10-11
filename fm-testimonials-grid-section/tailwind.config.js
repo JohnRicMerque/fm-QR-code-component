@@ -16,6 +16,9 @@ module.exports = {
       },
       backgroundPosition: {
         x_80_y_0: "80% 0%"
+      },
+      padding: {
+        main: "8% 12%"
       }
     },
   },
