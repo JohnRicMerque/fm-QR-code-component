@@ -13,6 +13,9 @@ module.exports = {
       }, 
       fontFamily: {
         barlow_semi_condensed: ['Barlow Semi Condensed']
+      },
+      backgroundPosition: {
+        x_80_y_0: "80% 0%"
       }
     },
   },
